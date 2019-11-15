@@ -10,9 +10,9 @@ namespace GameUsers.Data
             var users = new List<User> {
 
                 User.CreateUser(1,  "Bob", "Smith", "bob@bob", "0121"),
-                User.CreateUser(1,  "Fred", "Basset", "fred@fred", "65465"),
-                User.CreateUser(1,  "Ole", "Biscuit Barrel", "asdf@asdf", "456789"),
-                User.CreateUser(1,  "Luxury", "Yatch", "asfd@asf", "564654")
+                User.CreateUser(2,  "Fred", "Basset", "fred@fred", "65465"),
+                User.CreateUser(3,  "Ole", "Biscuit Barrel", "asdf@asdf", "456789"),
+                User.CreateUser(4,  "Luxury", "Yatch", "asfd@asf", "564654")
 
              };
 
