@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  gameusers:
+    build:
+      context: C:\Users\paj77\source\repos\GameUsers
+      dockerfile: GameUsers\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: gameusers
+    ports:
+    - target: 80
+version: '3.4'

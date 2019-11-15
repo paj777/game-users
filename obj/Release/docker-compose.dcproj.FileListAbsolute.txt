@@ -1,0 +1,13 @@
+C:\Users\paj77\source\repos\GameUsers\bin\Release\appsettings.Development.json
+C:\Users\paj77\source\repos\GameUsers\bin\Release\appsettings.json
+C:\Users\paj77\source\repos\GameUsers\bin\Release\Properties\launchSettings.json
+C:\Users\paj77\source\repos\GameUsers\bin\Release\GameUsers.dll
+C:\Users\paj77\source\repos\GameUsers\bin\Release\GameUsers.Core.dll
+C:\Users\paj77\source\repos\GameUsers\bin\Release\GameUsers.Domain.dll
+C:\Users\paj77\source\repos\GameUsers\bin\Release\GameUsers.Data.dll
+C:\Users\paj77\source\repos\GameUsers\bin\Release\GameUsers.pdb
+C:\Users\paj77\source\repos\GameUsers\bin\Release\GameUsers.Core.pdb
+C:\Users\paj77\source\repos\GameUsers\bin\Release\GameUsers.Domain.pdb
+C:\Users\paj77\source\repos\GameUsers\bin\Release\GameUsers.Data.pdb
+C:\Users\paj77\source\repos\GameUsers\obj\Release\docker-compose.dcprojAssemblyReference.cache
+C:\Users\paj77\source\repos\GameUsers\obj\Release\docker-compose.dcproj.CopyComplete

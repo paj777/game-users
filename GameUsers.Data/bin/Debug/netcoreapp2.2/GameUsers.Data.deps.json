@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "GameUsers.Data/1.0.0": {
+        "dependencies": {
+          "GameUsers.Core": "1.0.0",
+          "GameUsers.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GameUsers.Data.dll": {}
+        }
+      },
+      "GameUsers.Core/1.0.0": {
+        "runtime": {
+          "GameUsers.Core.dll": {}
+        }
+      },
+      "GameUsers.Domain/1.0.0": {
+        "runtime": {
+          "GameUsers.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GameUsers.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameUsers.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameUsers.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

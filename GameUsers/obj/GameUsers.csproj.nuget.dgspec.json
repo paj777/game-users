@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers\\GameUsers.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Core\\GameUsers.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Core\\GameUsers.Core.csproj",
+        "projectName": "GameUsers.Core",
+        "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Core\\GameUsers.Core.csproj",
+        "packagesPath": "C:\\Users\\paj77\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paj77\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Data\\GameUsers.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Data\\GameUsers.Data.csproj",
+        "projectName": "GameUsers.Data",
+        "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Data\\GameUsers.Data.csproj",
+        "packagesPath": "C:\\Users\\paj77\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paj77\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Core\\GameUsers.Core.csproj": {
+                "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Core\\GameUsers.Core.csproj"
+              },
+              "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Domain\\GameUsers.Domain.csproj": {
+                "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Domain\\GameUsers.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Domain\\GameUsers.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Domain\\GameUsers.Domain.csproj",
+        "projectName": "GameUsers.Domain",
+        "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Domain\\GameUsers.Domain.csproj",
+        "packagesPath": "C:\\Users\\paj77\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paj77\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers\\GameUsers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers\\GameUsers.csproj",
+        "projectName": "GameUsers",
+        "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers\\GameUsers.csproj",
+        "packagesPath": "C:\\Users\\paj77\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\paj77\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Core\\GameUsers.Core.csproj": {
+                "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Core\\GameUsers.Core.csproj"
+              },
+              "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Data\\GameUsers.Data.csproj": {
+                "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Data\\GameUsers.Data.csproj"
+              },
+              "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Domain\\GameUsers.Domain.csproj": {
+                "projectPath": "C:\\Users\\paj77\\source\\repos\\GameUsers\\GameUsers.Domain\\GameUsers.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.9.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

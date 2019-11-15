@@ -1,0 +1,7 @@
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Core\bin\Release\netcoreapp2.2\GameUsers.Core.deps.json
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Core\bin\Release\netcoreapp2.2\GameUsers.Core.dll
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Core\bin\Release\netcoreapp2.2\GameUsers.Core.pdb
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Core\obj\Release\netcoreapp2.2\GameUsers.Core.AssemblyInfoInputs.cache
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Core\obj\Release\netcoreapp2.2\GameUsers.Core.AssemblyInfo.cs
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Core\obj\Release\netcoreapp2.2\GameUsers.Core.dll
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Core\obj\Release\netcoreapp2.2\GameUsers.Core.pdb

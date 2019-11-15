@@ -1,0 +1,13 @@
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\bin\Release\netcoreapp2.2\GameUsers.Data.deps.json
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\bin\Release\netcoreapp2.2\GameUsers.Data.dll
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\bin\Release\netcoreapp2.2\GameUsers.Data.pdb
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\bin\Release\netcoreapp2.2\GameUsers.Core.dll
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\bin\Release\netcoreapp2.2\GameUsers.Domain.dll
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\bin\Release\netcoreapp2.2\GameUsers.Core.pdb
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\bin\Release\netcoreapp2.2\GameUsers.Domain.pdb
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\obj\Release\netcoreapp2.2\GameUsers.Data.csprojAssemblyReference.cache
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\obj\Release\netcoreapp2.2\GameUsers.Data.AssemblyInfoInputs.cache
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\obj\Release\netcoreapp2.2\GameUsers.Data.AssemblyInfo.cs
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\obj\Release\netcoreapp2.2\GameUsers.Data.csproj.CopyComplete
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\obj\Release\netcoreapp2.2\GameUsers.Data.dll
+C:\Users\paj77\source\repos\GameUsers\GameUsers.Data\obj\Release\netcoreapp2.2\GameUsers.Data.pdb

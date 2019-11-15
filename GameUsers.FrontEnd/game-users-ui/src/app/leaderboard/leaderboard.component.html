@@ -1,0 +1,35 @@
+<div class='card'>
+    <div class='card-header'>
+      {{title}}
+    </div>
+    <div class='card-body'>
+      <div class='row'>
+      </div>
+      <div class='row'>
+        <div class='col-md-6'>
+          <h4>Leaderboard</h4>
+        </div>
+      </div>
+      <div class='table-responsive'>
+        <table class='table'
+               *ngIf='leaderboardEntries && leaderboardEntries.length'>
+          <thead>
+            <tr>
+              <th>User Id</th>
+              <th>Score</th>
+              <th>Games Played</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let leaderboardEntry of leaderboardEntries'>              
+              <td>
+                {{ leaderboardEntry.userId }}
+              </td>
+              <td>{{ leaderboardEntry.score }}</td>
+              <td>{{ leaderboardEntry.gamesPlayed }}</td>              
+            </tr>
+          </tbody>
+        </table>
+      </div>  
+    </div>  
+  </div>
