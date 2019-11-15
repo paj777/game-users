@@ -1,4 +1,4 @@
-﻿using GameUsers.Domain;
+using GameUsers.Domain;
 using System.Collections.Generic;
 
 namespace GameUsers.Data
@@ -8,26 +8,12 @@ namespace GameUsers.Data
         public static IEnumerable<User> GetUsers()
         {
             var users = new List<User> {
-                new User {
-                    Id = 1,
-                    FirstName = "Bob",
-                    LastName = "Smith"
-                },
-                new User {
-                    Id = 2,
-                    FirstName = "Fred",
-                    LastName = "Basset"
-                },
-                new User {
-                    Id = 3,
-                    FirstName = "Luxury",
-                    LastName = "Yatch"
-                },
-                new User {
-                    Id = 4,
-                    FirstName = "Ole",
-                    LastName = "Biscuit Barrel"
-                }
+
+                User.CreateUser(1,  "Bob", "Smith", "bob@bob", "0121"),
+                User.CreateUser(1,  "Fred", "Basset", "fred@fred", "65465"),
+                User.CreateUser(1,  "Ole", "Biscuit Barrel", "asdf@asdf", "456789"),
+                User.CreateUser(1,  "Luxury", "Yatch", "asfd@asf", "564654")
+
              };
 
 
@@ -38,36 +24,10 @@ namespace GameUsers.Data
         public static IEnumerable<LeaderboardEntry> GetLeaderboardEntries()
         {
             var leaderBoardEntries = new List<LeaderboardEntry>() {
-                new LeaderboardEntry
-                {
-                    UserId = 1,
-                    GamesPlayed = 50,
-                    Score = 100
-                },
-                new LeaderboardEntry
-                {
-                    UserId = 2,
-                    GamesPlayed = 12,
-                    Score = 56
-                },
-                new LeaderboardEntry
-                {
-                    UserId = 3,
-                    GamesPlayed = 67,
-                    Score = 210
-                },
-                new LeaderboardEntry
-                {
-                    UserId = 4,
-                    GamesPlayed = 75,
-                    Score = 315
-                },
-                new LeaderboardEntry
-                {
-                    UserId = 5,
-                    GamesPlayed = 34,
-                    Score = 234
-                }
+                LeaderboardEntry.CreateLeaderboardEntry(1, 45, 456),
+                LeaderboardEntry.CreateLeaderboardEntry(2, 344, 234),
+                LeaderboardEntry.CreateLeaderboardEntry(3, 567, 40),
+                LeaderboardEntry.CreateLeaderboardEntry(4, 200, 324)
             };
 
             return leaderBoardEntries;

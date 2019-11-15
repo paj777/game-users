@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using GameUsers.Core.Interfaces;
@@ -17,7 +17,7 @@ namespace GameUsers.Data.Repositories
 
         public void Delete(int id)
         {
-            var user = _users.Where(x => x.Id == id).FirstOrDefault();
+            var user = _users.FirstOrDefault(x => x.Id == id);
 
             if (user != null) {
                 _users.Remove(user);
@@ -26,7 +26,7 @@ namespace GameUsers.Data.Repositories
 
         public User GetById(int id)
         {
-            return _users.Where(x => x.Id == id).FirstOrDefault();
+            return _users.FirstOrDefault(x => x.Id == id);
         }
 
         public async Task<IEnumerable<User>> GetAll()
@@ -36,7 +36,7 @@ namespace GameUsers.Data.Repositories
 
         public void Update(User entity)
         {
-            var user = _users.Where(x => x.Id == entity.Id).FirstOrDefault();
+            var user = _users.FirstOrDefault(x => x.Id == entity.Id);
 
             user = entity;
         }
