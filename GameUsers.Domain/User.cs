@@ -18,6 +18,15 @@ namespace GameUsers.Domain
             return new User(id, firstName, lastName, email, telephone);
         }
 
+        public void UpdateUser(User user)
+        {
+            Id = user.Id;
+            FirstName = user.FirstName;
+            LastName = user.LastName;
+            Email = user.Email;
+            Telephone = user.Telephone;
+        }
+
         public int Id { get; private set; }
         public string FirstName { get; private set; }
         public string LastName { get; private set; }
