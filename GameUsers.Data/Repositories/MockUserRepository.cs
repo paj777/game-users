@@ -38,7 +38,7 @@ namespace GameUsers.Data.Repositories
         {
             var user = _users.FirstOrDefault(x => x.Id == entity.Id);
 
-            user = entity;
+            user?.UpdateUser(entity);
         }
     }
 }
