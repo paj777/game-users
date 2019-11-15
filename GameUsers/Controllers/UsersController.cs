@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using System.Threading.Tasks;
 using GameUsers.Core.Interfaces;
 using GameUsers.Domain;
@@ -47,14 +47,7 @@ namespace GameUsers.Controllers
                 return new JsonResult(new { errormessage = "First name was empty", success = false });
             }
 
-            var user = new User
-            {
-                Id = id,
-                FirstName = first_name,
-                LastName = last_name,
-                Email = email,
-                Telephone = telephone
-            };
+            var user = GameUsers.Domain.User.CreateUser(id, first_name, last_name, email, telephone);
 
             var existingUser = _userRepository.GetById(id);
 
@@ -77,13 +70,7 @@ namespace GameUsers.Controllers
                 return new JsonResult(new { errormessage = "First name was empty", success = false });
             }
 
-            var user = _userRepository.GetById(id);
-
-            user.Id = id;
-            user.FirstName = first_name;
-            user.LastName = last_name;
-            user.Email = email;
-            user.Telephone = telephone;
+            var user = GameUsers.Domain.User.CreateUser(id, first_name, last_name, email, telephone);
 
             _userRepository.Update(user);
 
